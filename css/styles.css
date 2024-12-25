@@ -52,7 +52,7 @@
   --bs-dark-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 44, 85, 124;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -61,7 +61,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #000000;
+  --bs-body-color: rgb(44, 85, 124);
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -90,6 +90,7 @@
     scroll-behavior: smooth;
   }
 }
+
 
 body {
   margin: 0;
@@ -7939,6 +7940,11 @@ textarea.form-control-lg {
   font-style: italic !important;
 }
 
+.fst-caviar {
+  font-family: 'Caviar Dreams', sans-serif;
+  font-style: bold !important;
+}
+
 .fst-normal {
   font-style: normal !important;
 }
@@ -10840,8 +10846,8 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a5555;
-  opacity: 0.7;
+  background-color: #FFFFFF;
+  opacity: 0.2;
   z-index: 1;
 }
 
@@ -10883,7 +10889,7 @@ img.bg-img {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(44, 85, 124, 0.85);
 }
 .masthead .masthead-content {
   position: relative;
@@ -10912,6 +10918,15 @@ img.bg-img {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: calc(1rem + 2px);
+}
+
+a.button {
+  padding: 3% 10% 3% 10%;
+  border: 0px outset buttonborder;
+  border-radius: 10px;
+  color: rgb(44, 85, 124);
+  background-color: #FFFFFF;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
