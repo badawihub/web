@@ -10929,7 +10929,8 @@ a.button {
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 320px) {
   .masthead {
     height: 100%;
     width: 75vw;
